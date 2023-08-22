@@ -9,6 +9,6 @@ $ cp deploy.conf.example deploy.conf
 $ crontab -e
 ```
 ``` bash
-*/5 * * * * cd /home/user/project && ./deploy.sh >> /home/deploy.log 2>&1 <br>
+*/5 * * * * cd /home/user/project && ./deploy.sh >> /home/user/project/deploy.log 2>&1
 ```
 Enjoy! <br>
